@@ -1,1 +1,233 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+/*h1 { 
+    font-family:"times";
+    margin-top:70px;
+    margin-left:10px;
+    margin-right:10px;
+    font-size:30px;
+    color:#797066;
+}*/
+
+h2 { 
+        font-family:"Times";
+        margin-top:70px;
+        margin-left:10px;
+        margin-right:10px;
+        font-size:14px;
+}
+
+p
+{
+        color:#797066;
+        font-family: verdana;
+        font-size:14px;
+        margin-left:1px;
+        margin-right:1px;
+}
+
+
+#container{
+        float:left;
+        width: 600px;
+       
+        margin: 0 auto;
+        background-color: gray;
+        font-family:verdana;
+        border-width:1px;
+        border-style: solid;
+        border-color:black;
+    
+    
+    }
+#topbar{
+        float:left;
+        width:600px;
+        height:220px;
+        
+        background-image:url(pics/coffey1.jpg);
+        background-repeat:no-repeat;
+        background-color:#51473D;
+        background-position:right 0 bottom 0;
+        text-align:right; 
+        line-height: 180%;
+        font-style:italic;
+        font-size:0.7em;
+        color:#EAE7D2;
+                
+        
+    
+}
+
+#menu{
+        float:left;
+        background-color:#51473D;
+        padding:0;
+        width:600px;
+        height:35px;
+        
+}
+
+    
+#menu ul{ 
+        float: left;
+        margin-left: 2px;
+        max-width:600px;
+        padding-left:10px;
+        /*padding-top:5px;*/
+        background: #51473D;
+        list-style-type:none;
+        font-size:0.8em;
+    }
+
+#menu li{
+       
+        background-color:#797066;
+        float: left;
+        height:45px;               /*fel*/
+        margin-right: 1px;
+        border-top:2px;
+    
+    }
+
+#menu li a{
+        font-size:14px;
+        text-decoration: none;
+        padding-top:5px;
+        padding-bottom: 4px;
+        
+        padding-left:20px;
+        padding-right:20px;
+        
+        display: block;
+        color: rgb(223,213,196);
+        text-align: center;
+        text-transform:capitalize;
+} 
+
+#menu a:link{
+   
+        color:#EAE7D2 ;
+    
+    }
+
+#menu a:visited{
+        color: white;
+    }
+
+#menu a:hover{
+        background-color: #EAE7D2;
+        color:#51473D;
+    }
+
+#menu a current{
+        background:#EAE7D2 ; 
+        } 
+    
+    
+#menu a{
+        display:none;
+    } 
+
+
+
+
+
+
+    
+    
+
+#content{
+        
+        
+        float:left;
+        padding-right: 0;
+        color: rgb(121,112,102);
+        margin:0 auto;
+        background-color:#EAE7D2;
+} 
+#content h1 {
+        font-family:"times";
+        margin-top:20px;
+        margin-left:10px;
+        margin-right:10px;
+        font-size:30px;
+        color:#797066;
+
+}
+
+#maincontent{
+    
+        float:left;
+        width:357px;
+        margin-right:10px;               
+}
+#maincontent img{
+    
+    float:left;
+    
+}
+
+#subcontent{
+    
+        float:left;
+        border-left-style:dashed;
+        border-width:1px;
+        margin-top:2px;
+        margin-bottom:5px; 
+        
+       
+        width:232px;
+        
+}
+#subcontent h1{
+    
+        font-family:"times";
+        margin-top:20px;
+        margin-left:10px;
+        margin-right:10px;
+        font-size:16px;
+        color:#797066;
+    
+}
+#subcontent a:link{
+        color:#51473D;
+        font-size:10px;
+   
+}
+#subcontent p{
+    
+        margin-left:10px;
+   
+    
+}
+#subcontent ul{
+    
+        list-style-type:none;
+        padding-left:10px;
+}
+
+
+/*#subcontent li{
+    
+    margin
+    
+    
+}*/
+#bottomcontent{
+      
+      
+      
+    
+   
+   
+    
+        max-width:980px;
+        float:left;
+        padding-bottom:10px;
+        
+        
+     
+    }
+    
+    
